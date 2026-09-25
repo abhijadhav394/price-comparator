@@ -1,16 +1,53 @@
-# React + Vite
+# Price Comparator
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A full-stack web application that compares product prices between Amazon and Flipkart so users can find the better available price.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- User registration and login
+- JWT authentication
+- Role-based access
+- Product search
+- Product category filtering
+- Maximum price filtering
+- Price range filtering
+- Price sorting
+- Amazon vs Flipkart price comparison
+- Product details
+- Admin product management
+- Add products
+- Edit products
+- Delete products
+- Responsive UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the Oxlint configuration
+- React
+- Vite
+- JavaScript
+- CSS
+- Fetch API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Backend
+
+- Java
+- Spring Boot
+- Spring Security
+- JWT
+- Spring Data JPA
+- PostgreSQL
+
+## Application Flow
+
+```text
+React Frontend
+      ↓
+REST API
+      ↓
+Spring Boot Backend
+      ↓
+Spring Data JPA
+      ↓
+PostgreSQL
